@@ -8,7 +8,13 @@
 <form method="post">
     <div class="form-group">
         <label>Name
-    <input type="text" name="eventName" class="form-control">
+    <input type="text" name="name" class="form-control"> //with ModelAttribute - name now has to match Event model
+            // parameters
+        </label>
+    </div>
+    <div class="form-group">
+        <label>Description
+            <input type="text" name="description" class="form-control">
         </label>
     </div>
     <div class="form-group">
